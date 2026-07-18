@@ -26,9 +26,7 @@
 
         <div class="top-actions">
           <a href="#login" class="login-link">Log In</a>
-          <a href="https://wa.me/6287773311939" class="btn btn-primary"
-            >Start Free</a
-          >
+          <a href="https://wa.me/6287773311939" class="btn btn-primary">Start Free</a>
         </div>
       </header>
 
@@ -41,14 +39,12 @@
             Anywhere!
           </h1>
           <p>
-            Join millions of learners worldwide. Access 10,000+ courses taught
-            by expert instructors.
+            Join millions of learners worldwide. Access 10,000+ courses taught by
+            expert instructors.
           </p>
 
           <div class="hero-buttons">
-            <a href="https://wa.me/6287773311939" class="btn btn-primary"
-              >Start Learning Free</a
-            >
+            <a href="https://wa.me/6287773311939" class="btn btn-primary">Start Learning Free</a>
             <a href="#courses" class="btn btn-secondary">Browse Courses</a>
           </div>
 
@@ -70,24 +66,7 @@
 
         <section class="hero-right">
           <div class="illustration-panel">
-            <div class="illustration-content">
-              <div class="device-screen">
-                <div class="screen-header">
-                  <span></span><span></span><span></span>
-                </div>
-                <div class="screen-card">
-                  <div class="screen-title">LearnHub</div>
-                  <div class="screen-subtitle">AI-powered study plan</div>
-                  <div class="info-line"></div>
-                  <div class="info-line small"></div>
-                  <div class="info-list">
-                    <div class="icon-chip">🎓</div>
-                    <div class="icon-chip">💡</div>
-                    <div class="icon-chip">🚀</div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <div id="lottie-animation" class="lottie-animation"></div>
           </div>
 
           <div class="course-card">
@@ -104,14 +83,10 @@
               <strong>65%</strong>
             </div>
             <div class="progress-bar">
-              <span style="width: 65%"></span>
+              <span style="width: 65%;"></span>
             </div>
 
-            <a
-              href="https://wa.me/6287773311939"
-              class="btn btn-primary btn-wide"
-              >Continue Learning</a
-            >
+            <a href="https://wa.me/6287773311939" class="btn btn-primary btn-wide">Continue Learning</a>
           </div>
 
           <div class="floating-icon icon-1">🎯</div>
@@ -120,5 +95,16 @@
         </section>
       </main>
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.10.2/lottie.min.js"></script>
+    <script>
+      lottie.loadAnimation({
+        container: document.getElementById("lottie-animation"),
+        renderer: "svg",
+        loop: true,
+        autoplay: true,
+        path: "image/assets/Coming.json",
+      });
+    </script>
   </body>
 </html>
