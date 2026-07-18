@@ -170,7 +170,7 @@ h1 {
 }
 
 .illustration::after {
-  content: "Neo Brutalist";
+  content: "";
   position: absolute;
   bottom: 14px;
   left: 14px;
